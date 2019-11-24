@@ -5,5 +5,11 @@ html {
     font-size: 16px;
     font-family: 'PT Serif', serif;
     height: 100%;
+    margin: auto;
+    max-width: 20rem;
 }
 
+header {
+    background-color: #636363;
+    color: #ffffff;
+}
