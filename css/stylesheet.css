@@ -11,6 +11,34 @@ html {
     max-width: 20rem;
 }
 
+li {
+    color: #c7d5e0;
+}
+
+/*  Links Settings */
+
+a:link {
+    color: #c7d5e0;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+a:active {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+/*  Header part */
+
 header {
     background-color: #1b2838;
     color: #c7d5e0;
