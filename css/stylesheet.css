@@ -1,5 +1,7 @@
 @import "css/normalize.css";
 
+/*  Overall Settings */
+
 html {
     background-color: #d1d1d1;
     font-size: 16px;
@@ -12,4 +14,80 @@ html {
 header {
     background-color: #636363;
     color: #ffffff;
+    margin: auto;
+}
+
+#title_1 {
+    font-size: 2.4rem;
+    position: relative;
+    left: 7rem;
+    top: -8.5rem;
+    margin: auto;
+}
+
+#title_2 {
+    font-size: 1.2rem;
+    position: relative;
+    left: 7rem;
+    top: -11rem;
+    margin: auto;
+}
+
+/*  Navigation */
+
+#nav {
+    position: relative;
+    top: -10rem;
+    left: 0.9rem;
+    margin: auto;
+}
+
+#nav div {
+    float: left;
+    width: 25%;
+}
+
+/*  main body part */
+
+main {
+    background-color: #636363;
+    padding: 2px;
+}
+
+main p {
+    padding: 4px;
+    margin: auto;
+}
+
+/*  footer part */
+
+footer {
+    background-color: #636363;
+    padding: 1px;
+}
+
+footer p {
+    padding: 4px;
+    margin: auto;
+}
+
+/*  dividing line */
+
+#line {
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+/* asdie navigation part */
+
+#aside {
+    position: fixed;
+    margin: auto;
+    top: 22rem;
+    right: 3rem;
+}
+
+#aside img {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
 }
