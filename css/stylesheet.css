@@ -43,6 +43,7 @@ header {
     background-color: #1b2838;
     color: #c7d5e0;
     margin: auto;
+    height: 9rem;
 }
 
 #title_1 {
@@ -65,7 +66,7 @@ header {
 
 #nav {
     position: relative;
-    top: -10rem;
+    top: -2rem;
     left: 0.9rem;
     margin: auto;
 }
@@ -80,6 +81,7 @@ header {
 main {
     background-color: #1b2838;
     padding: 2px;
+    min-height: 17rem;
 }
 
 main p {
