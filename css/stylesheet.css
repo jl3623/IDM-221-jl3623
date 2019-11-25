@@ -3,7 +3,7 @@
 /*  Overall Settings */
 
 html {
-    background-color: #d1d1d1;
+    background-color: #c7d5e0;
     font-size: 16px;
     font-family: 'PT Serif', serif;
     height: 100%;
@@ -12,8 +12,8 @@ html {
 }
 
 header {
-    background-color: #636363;
-    color: #ffffff;
+    background-color: #1b2838;
+    color: #c7d5e0;
     margin: auto;
 }
 
@@ -50,11 +50,12 @@ header {
 /*  main body part */
 
 main {
-    background-color: #636363;
+    background-color: #1b2838;
     padding: 2px;
 }
 
 main p {
+    color: #c7d5e0;
     padding: 4px;
     margin: auto;
 }
@@ -62,11 +63,12 @@ main p {
 /*  footer part */
 
 footer {
-    background-color: #636363;
+    background-color: #1b2838;
     padding: 1px;
 }
 
 footer p {
+    color: #c7d5e0;
     padding: 4px;
     margin: auto;
 }
@@ -74,7 +76,7 @@ footer p {
 /*  dividing line */
 
 #line {
-    background-color: #ffffff;
+    background-color: #c7d5e0;
     margin: 10px;
 }
 
