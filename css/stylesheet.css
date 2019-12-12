@@ -1,49 +1,42 @@
 @import "css/normalize.css";
 
-/*  Overall Settings */
+/* overall */
 
 html {
-    background-color: #c7d5e0;
-    font-size: 16px;
-    font-family: 'PT Serif', serif;
-    height: 100%;
-    margin: auto;
+    font-size: 100%;
+    margin: 0 auto;
+    width: auto;
     max-width: 20rem;
+    background-color: #c7d5e0;
+    font-family: 'PT Serif', serif;
+    height: auto; 
 }
 
-li {
+/*  dividing line */
+
+#line {
+    background-color: #c7d5e8;
+    margin: 0.5rem;
+}
+
+/* body */
+
+body {
+    background-color: #1b2838;
     color: #c7d5e0;
+    margin: 0 auto;
+    height: auto;
 }
 
-/*  Links Settings */
-
-a:link {
-    color: #c7d5e0;
-    text-decoration: underline;
-}
-
-a:visited {
-    color: #c7d5e0;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #c7d5e0;
-    text-decoration: none;
-}
-
-a:active {
-    color: #c7d5e0;
-    text-decoration: none;
-}
-
-/*  Header part */
+/* header */
 
 header {
     background-color: #1b2838;
     color: #c7d5e0;
-    margin: auto;
-    height: 9rem;
+    margin: 0 auto;
+    height: auto;
+    max-height: 8rem;
+    padding: 0.5rem;
 }
 
 #title_1 {
@@ -62,64 +55,78 @@ header {
     margin: auto;
 }
 
-/*  Navigation */
+/* nav */
 
 #nav {
+    background-color: #1b2838;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.5rem;
     position: relative;
-    top: -2rem;
-    left: 0.9rem;
-    margin: auto;
+    top: 10rem;
 }
 
-#nav div {
-    float: left;
-    width: 25%;
-}
-
-/*  main body part */
+/* main */
 
 main {
-    background-color: #1b2838;
-    padding: 2px;
-    min-height: 17rem;
+    margin: 0 auto;
+    padding: 0.5rem;
 }
 
 main p {
     color: #c7d5e0;
-    padding: 4px;
-    margin: auto;
+    padding: 1rem 0.25rem;
+    margin: 0 auto;
 }
 
-/*  footer part */
+#rainbow {
+    text-align: center;
+}
+
+.main_body {
+    border-radius: 4rem !important;
+}
+/* footer */
 
 footer {
     background-color: #1b2838;
-    padding: 1px;
+    padding: 0.5rem;
 }
 
 footer p {
     color: #c7d5e0;
-    padding: 4px;
+    padding: 0.5rem;
     margin: auto;
+}
+
+/* Links */
+
+a:link {
+    color: #c7d5e0;
+    text-decoration: underline;
+    display: block;
+    padding: 0.6rem;
+}
+
+a:visited {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+a:active {
+    color: #c7d5e0;
+    text-decoration: none;
 }
 
 /*  dividing line */
 
-#line {
+hr {
     background-color: #c7d5e0;
-    margin: 10px;
-}
-
-/* asdie navigation part */
-
-#aside {
-    position: fixed;
-    margin: auto;
-    top: 22rem;
-    right: 3rem;
-}
-
-#aside img {
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+    margin: 0;
+    border: solid 0.5rem #c7d5e0;
 }
