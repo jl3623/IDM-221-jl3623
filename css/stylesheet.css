@@ -57,13 +57,19 @@ hr {
 
 .main p {
     margin: 0;
-    padding: 0.7rem 1rem 0.7rem 1rem;
+    padding: 1rem;
 }
 
-#rainbow {
+.pic {
+    margin: 0.2rem;
+    padding: 0.5rem;
     text-align: center;
-    margin: 0;
-    padding: 0.5rem 0;
+}
+
+video {
+    margin: 0.3rem 0.3rem 0.1rem 0.5rem;
+    padding: 0.1rem;
+    max-width: 18.8rem;
 }
 
 ul {
@@ -118,4 +124,8 @@ a:hover {
 a:active {
     color: #c7d5e0;
     text-decoration: none;
+}
+
+img {
+    text-align: center;
 }
